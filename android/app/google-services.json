@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17459223658",
+    "project_id": "dictionary-firebase-3474e",
+    "storage_bucket": "dictionary-firebase-3474e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17459223658:android:ae48b4fb50e8dc62d6fe13",
+        "android_client_info": {
+          "package_name": "com.example.dictionary_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMhWXiBHHG9Qvk1u--u_n93di_WbKitEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
