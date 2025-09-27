@@ -125,12 +125,12 @@ class _HistoryPageState extends State<HistoryPage> {
                 color: theme.textTheme.bodyMedium?.color ?? Colors.white,
               ),
             ),
-            leading: Icon(Icons.history, color: theme.primaryColor),
+            leading: Icon(Icons.history, color: theme.textTheme.bodyMedium?.color ?? Colors.white),
             trailing: Icon(
               Icons.arrow_forward_ios_rounded,
               size: 16,
-              color: theme.textTheme.bodyMedium?.color?.withOpacity(0.7) ??
-                  Colors.white70,
+              color: theme.textTheme.bodyMedium?.color ??
+                  Colors.white,
             ),
             onTap: () {
               _navigateToSearchPage(word);
@@ -141,3 +141,7 @@ class _HistoryPageState extends State<HistoryPage> {
     );
   }
 }
+
+//color: theme.textTheme.bodyMedium?.color?.withOpacity(0.7) ??
+//                   Colors.red,
+//leading: Icon(Icons.history, color: theme.primaryColor),

@@ -7,6 +7,7 @@ class uiHelper {
       child: TextField(
         controller: controller,
         obscureText: toHide,
+        style: TextStyle(color: Colors.black),
         decoration: InputDecoration(
           filled: true,
             fillColor: Colors.white,
